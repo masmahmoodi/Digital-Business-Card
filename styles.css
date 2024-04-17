@@ -80,8 +80,13 @@ h2{
 
 .about,
 .interests{
-    margin: 40px 0 0 40px;
+    margin: 40px 0 0 35px;
 }
+
+button i {
+    margin-right: 5px;
+}
+
 
 .interests{
     padding-bottom: 40px;
@@ -102,12 +107,34 @@ footer i {
     margin-right: 20px;
 }
 
+
+.about{
+    padding-right: 15px;
+}
+
 /* mobile */
 
 
-@media (max-width:480px) {
-    #root{
-        width:100%;
-        margin:0;
+@media (min-width: 0px) and (max-width:900px){
+    #root {
+        width: 100%;
+        margin: 0;
     }
 }
+
+
+@media (max-width:480px) {
+    .about,
+    .interests{
+        margin: 40px 0 0 25px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    
+
+}
+
+
+
